@@ -1,0 +1,217 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  color: #666;
+  box-sizing: border-box;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.h1 {
+  font-size: 3rem;
+}
+
+.h2 {
+  font-size: 2.4rem;
+}
+
+.h3 {
+  font-size: 2.2rem;
+}
+
+.h4 {
+  font-size: 1.8rem;
+}
+
+.h5 {
+  font-size: 1.4rem;
+}
+
+.h6 {
+  font-size: 1rem;
+}
+.title{
+  padding: 5% 0;
+  padding-bottom: 1%;
+  text-align: center;
+  color: #333;
+  font-weight: 900;
+}
+.top{
+  position: absolute;
+  background-image: url(./assets/bg.svg);
+  background-repeat:no-repeat;
+  background-size: contain;
+  width: 40%;
+  height: 100%;
+  margin-top: -3%;
+}
+
+.user-container {
+  position: relative;
+  padding: 0 10%;
+  max-width:1080px;
+  overflow: hidden;
+}
+.logo {
+  position: relative;
+  width: 100%;
+  margin-top: 10%;
+}
+.logo picture, .logo img {
+  max-width: 280px;
+  width: 100%;
+}
+.logo a{
+  left: 0;
+}
+.tip{
+  position: relative;
+  font-weight: 900;
+  color: #333;
+  padding:18% 20% 3% 20%;
+  text-align: center;
+}
+.user_registered-loginform, .user_checknum {
+  position: relative;
+  width: 60%;
+  padding: 2% 0
+  font-weight: 900;
+}
+.user_registered-loginform .h5, .userinput, .user_checknum .h5{
+  padding: 2% 5% 3% 5%;
+}
+.userinput {
+  width: 100%;
+  color: #999;
+  font-weight: 900;
+}
+.user_registered-loginform a, .user_registered-loginform a:visited {
+  text-decoration: none;
+  color: #666;
+  left: 0;
+}
+.user_checknum a, .user_checknum a:visited{
+  text-decoration: none;
+  color: #666;
+  left: 0;
+}
+.user_registered-loginform p,.user_checknum p {
+  font-weight: 900;
+  text-align: right;
+  width: 100%;
+}
+.btn {
+  width: 100%;
+  padding: 3% 0;
+  margin: 2% 0;
+  border-radius: 10px;
+}
+.loginbtn {
+  margin-top: 10%;
+  background: #DF032E;
+  font-weight: 900;
+  color: #fff;
+  border: none;
+}
+.registerbtn {
+  border: solid 1px #DF032E;
+  color: #DF032E;
+  font-weight: 900;
+}
+.forgetbtn {
+  margin-top: 10%;
+  background: #DF032E;
+  font-weight: 900;
+  color: #fff;
+  border: none;
+}
+
+.agreecheck{
+  position: relative;
+  display: flex;
+  width:100%;
+  transform: none;
+  left:0;
+  margin-top: 5px;
+}
+.agreecheck .h6{
+  transform: none;
+  left: 0;
+}
+.agreecheck input{
+  transform: none;
+  left: 0;
+}
+.agreecheck a{
+  text-decoration:underline;
+}
+.return{
+  text-align: center;
+  margin-top: 5px;
+}
+@media screen and (min-width: 401px) and (max-width: 800px) {
+*{
+  font-size: 10px;
+}
+.user-container {
+  padding: 0 5%;
+}
+.logo picture, .logo img {
+  width: 60%;
+  max-width: 200px;
+}
+.top{
+  width: 80%;
+  margin-top: -20%;
+}
+.user_registered-loginform {
+  width: 100%;
+  padding: 2% 5%;
+}
+.tip{
+  padding-right: 10%;
+  padding-left:10%;
+}
+}
+
+@media screen and (max-width: 400px) {
+  *{
+    font-size: 8px;
+  }
+  html, body{
+    padding: 0;
+  }
+.top{
+  width: 100%;
+  margin-top: -15%;
+}
+.logo {
+  margin-top: 20%;
+}
+.user_registered-loginform {
+  width: 100%;
+  padding: 2% ;
+}
+  .logo picture, .logo img {
+    width: 60%;
+}
+
+.tip{
+  margin-top: 10%;
+  padding-right:10%;
+  padding-left:10%;
+}
+}
