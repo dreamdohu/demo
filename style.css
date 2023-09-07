@@ -69,6 +69,7 @@ html, body {
   position: relative;
   width: 100%;
   margin-top: 10%;
+  margin-bottom: 10%;
 }
 .logo picture, .logo img {
   max-width: 280px;
@@ -81,7 +82,7 @@ html, body {
   position: relative;
   font-weight: 900;
   color: #333;
-  padding:18% 20% 3% 20%;
+  padding:3% 20% 3% 20%;
   text-align: center;
 }
 .user_registered-loginform, .user_checknum {
@@ -199,7 +200,7 @@ html, body {
   margin-top: -15%;
 }
 .logo {
-  margin-top: 20%;
+  margin: 20% 0 22% 0;
 }
 .user_registered-loginform {
   width: 100%;
